@@ -58,8 +58,8 @@
 		01D387941D229BFC00CE4E1F /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		01D387961D229BFC00CE4E1F /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		01D387A21D229E4A00CE4E1F /* UPCarouselFlowLayout.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UPCarouselFlowLayout.swift; sourceTree = "<group>"; };
+		17B28D982B32EE91009C5531 /* Package.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Package.swift; sourceTree = "<group>"; };
 		841C94F01DDEE4E300B997F5 /* UPCarouselFlowLayout.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = UPCarouselFlowLayout.h; sourceTree = "<group>"; };
-		841C94F11DDEE4E300B997F5 /* UPCarouselFlowLayout.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = UPCarouselFlowLayout.m; sourceTree = "<group>"; };
 		841C94FD1DDEE57F00B997F5 /* UPCarouselFlowLayout.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = UPCarouselFlowLayout.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		841C94FF1DDEE57F00B997F5 /* UPCarouselFlowLayout.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = UPCarouselFlowLayout.h; sourceTree = "<group>"; };
 		841C95001DDEE57F00B997F5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -87,6 +87,7 @@
 		01D387621D1C4B9D00CE4E1F = {
 			isa = PBXGroup;
 			children = (
+				17B28D982B32EE91009C5531 /* Package.swift */,
 				01D3878A1D229BFC00CE4E1F /* UPCarouselFlowLayoutDemo */,
 				841C94EF1DDEE4E300B997F5 /* UPCarouselFlowLayout */,
 				841C94FE1DDEE57F00B997F5 /* UPCarouselFlowLayout */,
@@ -123,7 +124,6 @@
 		01D387A11D229E4A00CE4E1F /* UPCarouselFlowLayout */ = {
 			isa = PBXGroup;
 			children = (
-				01D387A21D229E4A00CE4E1F /* UPCarouselFlowLayout.swift */,
 			);
 			path = UPCarouselFlowLayout;
 			sourceTree = SOURCE_ROOT;
@@ -132,7 +132,7 @@
 			isa = PBXGroup;
 			children = (
 				841C94F01DDEE4E300B997F5 /* UPCarouselFlowLayout.h */,
-				841C94F11DDEE4E300B997F5 /* UPCarouselFlowLayout.m */,
+				01D387A21D229E4A00CE4E1F /* UPCarouselFlowLayout.swift */,
 			);
 			path = UPCarouselFlowLayout;
 			sourceTree = "<group>";
@@ -223,6 +223,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);
